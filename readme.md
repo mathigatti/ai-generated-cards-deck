@@ -2,9 +2,6 @@
 
 These are scripts used to create a deck of cards [and website](https://consignashot.netlify.app/).
 
-
-![](/website/deck_light/Besar En Un Lugar Nuevo.jpg)
-
 ## Technical details
 
 - From a list of challenges/card titles I used `prompt-chatgpt.txt` to generate cards.csv
@@ -16,3 +13,5 @@ These are scripts used to create a deck of cards [and website](https://consignas
     It goes through the `images` folder and puts that together with the optional descriptions in `cards.csv`, the card frames at `frames` and some prefered font in the `fonts` folder. 
 - `resize.py`
     This converts all images to a smaller size and jpg format so they are lighter and the website is fast.
+
+![Card example](https://raw.githubusercontent.com/mathigatti/ai-generated-cards-deck/master/website/deck_light/Besar%20En%20Un%20Lugar%20Nuevo.jpg)
