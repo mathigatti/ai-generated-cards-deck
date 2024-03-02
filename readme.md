@@ -3,7 +3,7 @@
 These are scripts used to create a deck of cards [and website](https://consignashot.netlify.app/).
 
 
-![](/website/deck_light/Besar En Un Lugar Nuevo.jpg)
+![Card example](website/deck_light/Besar En Un Lugar Nuevo.jpg)
 
 ## Technical details
 
