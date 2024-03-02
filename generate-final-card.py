@@ -57,7 +57,7 @@ def create_tarot_card(image_path, card_name, output_path, description=None):
     font = ImageFont.truetype("fonts/Montserrat-Light.ttf", font_size)
 
     # Calculate text width and height to center it
-    text_x = (combined.width - len(card_name)*55) / 2
+    text_x = (combined.width - getsize(font, card_name)[0]) / 2
     if description is None:
         text_y = combined.height - 200
     else:
