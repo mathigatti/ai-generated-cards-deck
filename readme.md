@@ -3,7 +3,7 @@
 These are scripts used to create a deck of cards [and website](https://consignashot.netlify.app/).
 
 
-![Card example](website/deck_light/Besar En Un Lugar Nuevo.jpg)
+![Card example](https://raw.githubusercontent.com/mathigatti/ai-generated-cards-deck/master/website/deck_light/Besar%20En%20Un%20Lugar%20Nuevo.jpg)
 
 ## Technical details
 
