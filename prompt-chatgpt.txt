@@ -1,0 +1,21 @@
+I have a list of sentences, for each, generate a visual description that might be a good illustration of that sentence. It doesn't need to be exactly it but it should be related. The sentences are in spanish but the visual description should be in english.
+
+Example:
+
+Sentence: "Recibí mimos"
+
+It turns into this visual image
+"A man resting in the grass on a sunny day, enjoying receiving caresses from some enthusiastic friends. The scene portrays a relaxed and joyful atmosphere, with the man lying comfortably in the grass, surrounded by friends who are affectionately interacting with him. The friends are shown in a manner that reflects their enthusiasm and camaraderie. The setting is a peaceful outdoor scene, capturing the essence of a sunny day."
+
+
+These are the sentences:
+
+Contar una fantasía 
+Decile algo sucio a alguien al oido
+Ronda de nalgadas
+Bailar pegadito
+Besar a alguien en cualquier lado menos los labios
+Masaje a otra persona (donde quiera)
+30 segundos de nalgueadas y cosquillas
+Mirarse fijo por 30 segundos con alguien
+

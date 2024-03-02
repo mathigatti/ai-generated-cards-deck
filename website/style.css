@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+img {
+    border-radius: 15px; /* Rounded corners for the image/card */
+    width: 100%; /* Make image responsive */
+    max-width: 800px; /* Max image width to avoid being too large on desktop */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits without cropping or stretching */
+    max-height: 100vh; /* Ensure image does not exceed viewport height */
+}
