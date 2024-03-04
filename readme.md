@@ -14,4 +14,4 @@ These are scripts used to create a deck of cards [and website](https://consignas
 - `resize.py`
     This converts all images to a smaller size and jpg format so they are lighter and the website is fast.
 
-![Card example](https://raw.githubusercontent.com/mathigatti/ai-generated-cards-deck/master/website/deck_light/Un Beso, Una Boca.jpg)
+![Card example](https://raw.githubusercontent.com/mathigatti/ai-generated-cards-deck/master/website/deck_light/Un%20Beso,%20Una%20Boca.jpg)
