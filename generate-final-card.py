@@ -96,12 +96,16 @@ if __name__ == "__main__":
             name = d["Original Sentence"].replace("_"," ").title()
             title2description[name] = d["Description"]
 
+    destination_folder = "deck"
+
+    if not os.path.exists(destination_folder):
+        os.makedirs(destination_folder)
 
     for folder in tqdm(glob("images/*")):
         try:
             name = folder.split("/")[-1].replace("_", " ").title()
             image = random.choice(glob(os.path.join(folder,"*")))
 
-            create_tarot_card(image, name, f"deck/{name}.png", description=title2description.get(name))
+            create_tarot_card(image, name, os.path.join(destination_folder,f"{name}.png"), description=title2description.get(name))
         except Exception as e:
             print(e)
