@@ -13,8 +13,6 @@ def create_a4_collage(folder_path):
     a4_width_px = int((210/25.4)*300)
     a4_height_px = int((297/25.4)*300)
     
-    # Create a blank A4 image
-    a4_image = Image.new('RGB', (a4_width_px, a4_height_px), 'white')
     
     # Image resize dimensions
     resize_width = 800
@@ -25,6 +23,9 @@ def create_a4_collage(folder_path):
     
     
     for i in range(0,len(image_files),9):
+        # Create a blank A4 image
+        a4_image = Image.new('RGB', (a4_width_px, a4_height_px), 'white')
+
         image_files_i = image_files[i:i+9]
     
         # Load, resize, and place each image on the A4 canvas
@@ -88,11 +89,11 @@ def images_to_pdf_with_backs(image_paths, back_image_path, output_pdf_path):
         images[0].save(output_pdf_path, save_all=True, append_images=images[1:])
     print("PDF Created!")
 
-folder_path = 'deck'
+folder_path = 'website/deck_light'
 create_a4_collage(folder_path)
 
 image_paths = glob("printables/a4_collage*.jpg")
-back_image_path = 'printables/back.jpg'  # Path to your back image
+back_image_path = 'printables/a4_backs.jpg'  # Path to your back image
 output_pdf_path = 'output.pdf'  # Desired output PDF path
 
 images_to_pdf_with_backs(image_paths, back_image_path, output_pdf_path)
