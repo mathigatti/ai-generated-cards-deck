@@ -1,6 +1,6 @@
 # AI Generated Cards Deck
 
-These are scripts used to create a deck of cards [and website](https://consignashot.netlify.app/).
+These are scripts used to create a deck of cards [and website](https://retoshot.netlify.app/).
 
 ## Technical details
 
