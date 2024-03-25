@@ -48,6 +48,8 @@ def create_a4_collage(folder_path):
     a4_image_back = Image.new('RGB', (a4_width_px, a4_height_px), 'white')
 
     # Load, resize, and place each image on the A4 canvas
+    offsets1 = set([])
+    offsets2 = set([])
     for index in range(9):
         with Image.open("backs/back1.png") as img_back:
             # Resize image
@@ -55,6 +57,10 @@ def create_a4_collage(folder_path):
             
             # Calculate position
             x_offset = (index % 3) * (a4_width_px // 3) + (a4_width_px // 3 - resize_width) // 2
+
+            # mirroring image
+            x_offset = int(a4_width_px - x_offset - resize_width)
+
             y_offset = (index // 3) * (a4_height_px // 3) + (a4_height_px // 3 - resize_height) // 2
             
             a4_image_back.paste(img_back, (x_offset, y_offset))
